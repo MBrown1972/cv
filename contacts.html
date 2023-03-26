@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h1>Contact details</h1>
+        <h3>Phone</h3>
+            <h5>07555536707</h5>
+        <h3>Email</h3>
+            <h5>
+                <ul>
+                    <li>dermenci@yahoo.com</li>
+                    <li>mdermenci@gmail.com</li>
+                </ul>
+            </h5>
+    <form action="mailto:dermenci@yahoo.com" method="post" enctype="text/plain">
+        <label>Name</label><br>
+        <input type="text" name="Name"><br>
+        <br>
+        <label for="">Email</label><br>
+        <input type="email" name="email" >
+        <br>
+        <label for="">Password</label>
+        <input type="password" name="password">
+        <br>
+        <input type="submit" name="submit" value="Submit">
+        <label for="">Month</label>
+        <input type="month" id="start" name="start"
+        min="2018-03" value="2018-05">
+        <br>
+        <label for="">Message</label><br>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <br>
+        <button>submit</button>
+    </form>
+</body>
+</html>
